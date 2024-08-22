@@ -1,7 +1,7 @@
 
 # Decodificador de Texto
 
-Esta é uma aplicação web simples para criptografar e descriptografar textos usando um esquema de codificação personalizado. A aplicação foi projetada para aceitar apenas letras minúsculas, números, espaços e os caracteres . (ponto), , (vírgula) e ? (interrogação). Qualquer tentativa de inserir letras maiúsculas ou outros caracteres especiais resultará em um alerta pedindo para o usuário corrigir a entrada.
+Repositório com a solução do desafio do Oracle Next Education + Alura, é uma aplicação web simples para criptografar e descriptografar textos usando um esquema de codificação personalizado. A aplicação foi projetada para aceitar apenas letras minúsculas, números, espaços e os caracteres . (ponto), , (vírgula) e ? (interrogação). Qualquer tentativa de inserir letras maiúsculas ou outros caracteres especiais resultará em um alerta pedindo para o usuário corrigir a entrada.
 
 
 ## Funcionalidades
