@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="shortcut icon" type="imagem/png" href="assets/imagens/logo 1.svg">
+</head>
+<body>
+    <img class="bg-img" src="./assets/imagens/bg-padrao.svg" alt="" srcset="">
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="./assets/imagens/logo 1.svg" alt="Logo do Decodificador">
+    </header>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Digite seu texto</h2>
+            <textarea id="input-text" placeholder="Digite seu texto aqui"></textarea>
+            <p class="validation-msg">⚠️ Apenas letras minúsculas e sem acentos.</p>
+            <div class="buttons">
+                <button id="encrypt-btn" onclick="encryptText()">
+                    <i class="lock-icon"></i> <img class="icone" src="assets/imagens/btn criptografar.svg" alt="" srcset="">Criptografar
+                </button>
+                <button id="decrypt-btn" onclick="decryptText()">
+                    <i class="unlock-icon"></i> <img class="icone" src="assets/imagens/btn descriptografar.svg" alt="" srcset="">Descriptografar
+                </button>
+            </div>
+        </div>
+        <div class="right-panel">
+            <img class="img-direita" id="placeholder-img" src="assets/imagens/imagem-direita.svg" alt="Nenhuma mensagem encontrada">
+            <p id="output-msg">Nenhuma mensagem encontrada</p>
+            <p id="instruction-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button id="copy-btn" onclick="copyText()">
+                <i class="copy-icon"></i> <img class="icone-copy" src="assets/imagens/btn copy.svg" alt="" srcset="">Copiar
+            </button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Desenvolvido por Janielson Anjos.</p>
+    </footer>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
