@@ -112,10 +112,19 @@ textarea::placeholder {
     height: 61px;
 }
 
+button#encrypt-btn:hover{
+    background-color: #11275c;
+    transition: background-color 0.3s;
+}
+
 button#decrypt-btn {
     background-color: #E5E5E5;
     border: 1px solid #3D107B;
     color: #3D107B;
+}
+button#decrypt-btn:hover {
+    background-color: #b793e9;
+    transition: background-color 0.3s;
 }
 
 button i {
@@ -173,6 +182,10 @@ footer {
     margin-bottom: 5px;
 }
 
+#copy-btn:hover {
+    background-color: #E5E5E5;
+    transition: background-color 0.3s;
+}
 .icone{
     width: 25px;
     height: 25px;
